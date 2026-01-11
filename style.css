@@ -50,6 +50,7 @@
 
 max-width: 827px;
 text-align: center;
+margin: 0 auto;
 
 }
 .section-heading h2{
@@ -181,3 +182,161 @@ color: #474747;
 
  font-size: 20px;   
 }
+
+#skills {
+    padding-top: 120px;
+}
+
+#skills .skills-container {
+    width: 72%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.skill-card {
+    background: #fff;
+    padding: 32px;
+    width: 240px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.skill-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#resume {
+  padding-top: 120px;
+}
+
+.resume-container {
+  width: 72%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#resume .section-heading h2 {
+  margin-bottom: 50px;
+}
+
+.resume-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+  text-align: left;
+}
+
+.resume-column h3 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.resume-item {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+}
+
+.resume-item h4 {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.resume-item span {
+  font-size: 14px;
+  color: #666;
+}
+
+.resume-item p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+#contact {
+  background-color: #FFF8F3;
+  padding: 100px 0;
+}
+
+.contact-container {
+  width: 72%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.contact-left h2,
+.contact-right h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.contact-socials a {
+  font-size: 18px;
+  margin-right: 15px;
+  color: #f97316; /* orange */
+  text-decoration: none;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 14px 18px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 15px;
+}
+
+.contact-right textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-right button {
+  width: fit-content;
+  background: #ff6b00;
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
